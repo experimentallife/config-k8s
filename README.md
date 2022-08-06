@@ -1,1 +1,1 @@
-# config-development-k8s
+# config-k8s

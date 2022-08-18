@@ -1,0 +1,6 @@
+scope: "development"
+name: "nodejs express boilerplate"
+version: 0.1
+properties:
+  private-key: "aaaa"
+  public-key: "bbbb"

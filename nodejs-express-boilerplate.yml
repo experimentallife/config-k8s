@@ -8,5 +8,5 @@ properties:
     port: 5432
   postgres:
     user: "admin"
-    password: "adminpassword"
+    password: "adminpasswordtytttyt"
     db: "project_database"

@@ -2,41 +2,11 @@ scope: "development"
 name: "nodejs express boilerplate"
 version: 0.1
 properties:
-  private-key: |
-    -----BEGIN RSA PRIVATE KEY-----
-    MIIEpAIBAAKCAQEAvXdh89TNPz8zW5WrxQacnj27d4B1VbhNOLZhNy3JNHNr8F9V
-    iV/QaVbZ24uIVhxGXqxO9aVxwuK5p5o3dMmnop1N0/kmjc+DAFTFQcL+6OHXsjY9
-    t6uzyzQqTOGRsMt3QwbaGN8g6jN9SJ66R4Z2PCs7E9k5GitQWT/INjnQIfacF10p
-    CXFtSuueRxcn1ybJPkKlqr0uP8D1NpkB3AkNCREf/Yp8JCx5hG8o92jFuq6ihFe1
-    l4muyF0arOmpKwRMWBO5ebVMi9JcULst1YiIubtlqux9glSzRoibVUHhQik2OTPn
-    4Iox0qGIq0y5lNw1yeJMPtxDoajUoSJdIaVMpwIDAQABAoIBAH/Jh01Xl98yl0cM
-    GcBXh0bLSCd/gqQAHEVF7Se0P+KafpCvHBf9gamqpGGJKLk7dNLh0JepsKLLHIDI
-    aOLiJ6hsBFQV1UUMUsTkZ+7Ev/z+ZeaS4umAa1GAq48TDJp7gMK6WlswExkjBTr3
-    o5gePpyyY7QtbHAUCqtHc5fvQkvEyGwx9y2zQClm1EsEWR4wWvXb2/nTTonnAygt
-    Nl5wvN+VYnyTiMAq+lrkC1IqqvXCKQNnI3Md/4Fif2PklSqB76wK+77p0AJMYAR+
-    0lDhhwlNJVjbvh/WnM5LQVTJIUn0/vLjNJv7Ehvag8X9iYpA+4qVhd3xwmrUngWM
-    y9bnqpECgYEA8l8QWf/abEIZ90+zSvQ3sBQXIFjf0D54pYaAJmuY6g1QI92wN9+x
-    JQkcRrXdwk7n4htCdi4sEF/uLYWh6fBsSqAkCG5MrVjhRmxKYbd1W67gPuOdNhM3
-    HKewEYoLrsFeE+9mMIztb00MlxNypMNGSiouC+3I/nj8YGaNSSSLHWUCgYEAyB7A
-    RgiRa/d2K4N/IP4TkS1H+FTAyhSp6qn9mUomMY2ekiB9U7uX3jHrNouv40CErTg8
-    XuqXRroPXFCk26u+WJS4OI6OWsPPeCLJvWuORVy/hZY/otPrdtS7ANh1z8vlsF5L
-    GG7kgW43BJBB3pBzSbGDTE7yNasy1lNsbLS+txsCgYEAlr15NgBioKIb9CylniB1
-    4hUcrQmZabLw5kHYwgx5dlgBV80xJA8D5bzc0T2bRpY8seuyUj41OZnwUG+kXBMj
-    xuYCgxvWpJl6wonnWQ749qS042g9Bry8sh2466+nxHCPSmbCb7+2jFqnUe7OhprM
-    xKOnL9QcBejJTkt549vOieECgYEAgVke/iVbmWWBw+5ipXiUPSn/csuVMQjaKwtl
-    F0eOGElpTRoi55RBPSUW21K+hSyWlT/cBZ2r2dM5Snn1lOcVSTwXNrct3AzkdMpH
-    i1+RvdONF1NeHmjLsSsfFBTVUVKBS9Ymw8wpdl8+wHxdlvXXDrLmItSESZw2Z8HU
-    Ow84ljECgYA/N4q9959bTjxugE6fRAZFnQlOATmwvvqYs0huuhFBYNdr+CTLeeu+
-    36+U75y5c09AVTvfEml1ca9YjwmuqurCHDCRh8HKzakEUybdRSjzfsXC+67fVKhk
-    OSQ4JPWUr+CRxNGNz2XG2PAuKT6ICBxbgj9QCWU230F3Yk9oiJ30vw==
-    -----END RSA PRIVATE KEY-----
-  public-key: |
-    -----BEGIN PUBLIC KEY-----
-    MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvXdh89TNPz8zW5WrxQac
-    nj27d4B1VbhNOLZhNy3JNHNr8F9ViV/QaVbZ24uIVhxGXqxO9aVxwuK5p5o3dMmn
-    op1N0/kmjc+DAFTFQcL+6OHXsjY9t6uzyzQqTOGRsMt3QwbaGN8g6jN9SJ66R4Z2
-    PCs7E9k5GitQWT/INjnQIfacF10pCXFtSuueRxcn1ybJPkKlqr0uP8D1NpkB3AkN
-    CREf/Yp8JCx5hG8o92jFuq6ihFe1l4muyF0arOmpKwRMWBO5ebVMi9JcULst1YiI
-    ubtlqux9glSzRoibVUHhQik2OTPn4Iox0qGIq0y5lNw1yeJMPtxDoajUoSJdIaVM
-    pwIDAQAB
-    -----END PUBLIC KEY-----
+  database:
+    type: "postgres"
+    host: "192.168.0.2"
+    port: 5432
+  postgres:
+    user: "admin"
+    password: "adminpassword"
+    db: "project_database"
